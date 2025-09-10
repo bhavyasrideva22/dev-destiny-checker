@@ -57,6 +57,18 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        success: {
+          DEFAULT: "hsl(var(--success))",
+          foreground: "hsl(var(--success-foreground))",
+        },
+        warning: {
+          DEFAULT: "hsl(var(--warning))",
+          foreground: "hsl(var(--warning-foreground))",
+        },
+        blockchain: {
+          DEFAULT: "hsl(var(--blockchain))",
+          glow: "hsl(var(--blockchain-glow))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
